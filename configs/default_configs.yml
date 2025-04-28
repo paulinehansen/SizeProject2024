@@ -1,0 +1,43 @@
+analysis_time_stamp: null
+
+# data paths
+data_path: null
+configs_folder: null
+results_folder: null  # path to folder where max projections and dataframe should be stored
+plots_folder: null
+
+files: []  # list of .czi files
+aliases: []  # list of ID corresponding to files
+
+magn: [10x]  # one value
+method: ['Confical']  # one value
+ncells: []  # put as many as files
+dict_channel: []  # put one
+
+initialization:
+  data_frames: true
+  saved: true
+  tiffs: true
+
+image_analysis:
+  morphological_analysis: true
+  profile_analysis: true
+  saved: true
+
+merged:
+  merged: true
+  saved: true
+  save_name: null
+
+overview_plot:
+  ch_to_use: null          # channel used to plot analysis overview
+  format: '.pdf'           # format of the plots to be created
+  param: 'imageID'
+  morph_analysis: true
+  mark_filtered: false
+  filtered_gastrus: []
+  ncol: 7
+  saved: true
+  cmap: 'binary'
+
+

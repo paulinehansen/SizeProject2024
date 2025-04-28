@@ -1,0 +1,104 @@
+aliases: []
+analysis_time_stamp: 01/14/2025, 14:21:40
+color_dict_sizes:
+  '1200': '#82a954'
+  1200/4: '#82a954'
+  '300': '#30807f'
+  '3000': '#d4b093'
+  300x4: '#30807f'
+  '50': '#000000'
+  50x6: '#000000'
+condition_line_styles:
+  '1200': '-'
+  1200/4: --
+  '300': '-'
+  300x4: ':'
+  '50': '-'
+  50x6: ':'
+conditions:
+- 1200.4
+- 1200.0
+- 300.4
+- 300.0
+- 50.6
+- 50.0
+configs_folder: configs/
+data_path: path/to/data/from/zenodo/
+df_exp_stats_save_path: data/elo_multi_collapse.json
+dict_channel: []
+files: []
+image_analysis:
+  morphological_analysis: true
+  profile_analysis: true
+  saved: true
+initialization:
+  data_frames: true
+  saved: true
+  tiffs: true
+magn:
+- 10x
+marker_dict_sizes:
+  '1200': o
+  1200/4: '*'
+  '300': o
+  300x4: '*'
+  '50': o
+  50x6: '*'
+merged:
+  merged: true
+  save_name: data/PH_129_N0_50-1200_exp_combined_shape.json
+  saved: true
+method:
+- Confical
+ncells: []
+new_cond:
+  50.0: '50'
+  50.6: 50x6
+  300.0: '300'
+  300.4: 300x4
+  1200.0: '1200'
+  1200.4: 1200/4
+overview_plot:
+  ch_to_use: null
+  cmap: binary
+  filtered_gastrus: []
+  format: .pdf
+  mark_filtered: false
+  morph_analysis: true
+  ncol: 7
+  param: imageID
+  saved: true
+plots_folder: plots/
+results_folder: null
+size_groups:
+- 300.0
+- 1200.0
+- 50.0
+- 0.0
+time_size:
+- '72_1200.4'
+- '72_1200.0'
+- '72_300.4'
+- '72_300.0'
+- '72_50.6'
+- '72_50.0'
+- '96_1200.0'
+- '96_1200.4'
+- '96_300.0'
+- '96_300.4'
+- '96_50.0'
+- '96_50.6'
+- '120_1200.0'
+- '120_1200.4'
+- '120_300.0'
+- '120_300.4'
+- '120_50.0'
+- '120_50.6'
+- '144_1200.0'
+- '144_1200.4'
+- '144_300.0'
+- '144_300.4'
+- '144_50.0'
+- '144_50.6'
+- '144_1440.0'
+- '144_1440.4'

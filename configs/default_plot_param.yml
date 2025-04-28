@@ -1,0 +1,41 @@
+format: '.pdf'
+
+color_dict_sizes: { '25': '#000000',
+                    '50': '#000000',
+                    '100': '#184279',
+                    '50x6': '#306d80',
+                    '300': '#30807f',
+                    '1200/4': '#308061',
+                    '600': '#429552',
+                    '300x4': '#5e9542',
+                    '1200': '#82a954',
+                    '1800': '#b9b35f',
+                    '3000': '#d4b093' } # from Lausanne # check if there are 3 other colors for larger sizes (5400, 10000, 30000)
+
+color_dict_live_morph: 'gist_earth' # diff between sizes
+
+line_style_dict: {96: ':', 120: '-', 144: '--'}  # different time points
+
+rcParams: {pdf.fonttype: 42,
+           ps.fonttype: 42,
+           font.family: 'Arial',
+           font.size: 10,
+           axes.labelsize: 10,
+           axes.titlesize: 10,
+           axes.linewidth: 1,
+           lines.linewidth: 1 }
+
+exp_color_dict: {'231030_BG06':'olive',
+                 '230903_Exp5_SlowImaging': 'sandybrown',
+                 '240202_size_50-1200': 'lightcoral',
+                 '240205_size_50-1200':'brown'}
+
+exp_ls_dict: {'231030_BG06':'-',
+              '230903_Exp5_SlowImaging' : '--',
+              '240202_size_50-1200': '-',
+              '240205_size_50-1200': '--'}
+
+exp_idxs: {'231030_BG06': 'big',
+           '230903_Exp5_SlowImaging': 'cut1',
+           '240202_size_50-1200': 'cut2',
+           '240205_size_50-1200': 'cut3'}
